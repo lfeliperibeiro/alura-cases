@@ -1,9 +1,11 @@
 import Link from '../src/components/Link'
+import { PageTitle } from '../src/components/PageTitle'
 
 export default function FaqPage({ faq }) {
   console.log
   return (
     <div>
+      <PageTitle title={'Faq'} />
       <h1>FaqPage</h1>
       <Link href={'/'}>Ir para a Home</Link>
       <ul>
